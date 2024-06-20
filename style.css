@@ -1,0 +1,30 @@
+button{
+    margin:5px
+}
+*{
+    margin:0px;
+}
+body{
+    background-color:grey;
+    border: 1px solid red;
+}
+
+#controls{
+    display: flex;
+    justify-content: center;
+}
+#myCanvas{
+    position: relative;
+    border: 1px solid red;
+}
+#newgame{
+    position: absolute;
+    padding: 10px;
+    margin:5px;
+    border-radius: 15px;
+}
+#start{
+    position: absolute;
+    padding: 7px; 
+    border-radius: 15px;
+}
